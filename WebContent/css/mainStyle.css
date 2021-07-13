@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.main-title {
+    text-align:center;
+    font-family: cursive;
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.main-title_disc {
+    text-align:center;
+    font-family: cursive;
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 3px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+
+header {
+    position : fixed;
+    color: white;
+    z-index: 100;
+    width: 100%;
+    top : 0px;
+    left: 0px;
+    display: flex;
+    align-items:center;
+}
+
+.logo {
+    padding : 0 0 0 40px;
+    letter-spacing : 10px
+}
+
+ul {
+    list-style : none;
+    margin:0px;
+    display: flex;
+}
+
+nav {
+    margin : 0 30px 0 auto;
+}
+
+.header-content a {
+    color: white;
+    position: relative;
+}
+
+.header-content a::after {
+    position:absolute;
+    bottom: -4px;
+    left: 0;
+    content : '';
+    width:100%;
+    height: 1px;
+    background: #333;
+    transform: scale(0 , 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+.header-content a:hover::after {
+    transform:scale(1 , 1);
+}
+
+li {
+   margin: 0 0 0 70px;
+   font-size: 30px;
+}
+
+.header-content a {
+    text-decoration: none;
+}
+
+.main-btn {
+    position: absolute;
+    padding: 25px 70px;
+    font-size: 60px;
+    color: white;
+    background-color:rgba(90,250,158,0.6);
+    border-radius: 80px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.main {
+    display: flex;
+}
+
+.main-btn:hover {
+    background-color:rgba(90,184,255,0.8);
+}
+
+.main-login_btn {
+    top: 83%;
+    left: 50%;
+    font-size : 20px;
+    background-color:rgba(102,102,102,0.45);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+}
+
+.main-register_btn {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+}
+
+.main-ads {
+    position: relative;
+    display : block;
+}
+
+.content {
+    color: white;
+    font-size: 50px;
+}
+
+#bg {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
