@@ -1,6 +1,6 @@
 # TaskManagingAppli
 
-実装機能
+## 実装機能 <br/>
 ・登録機能<br/>
 ・ログイン機能<br/>
 ・ユーザー各々のTODOリストの作成/Todoの達成機能<br/>
